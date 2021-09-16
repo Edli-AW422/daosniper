@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Dao SNIPER</title>
+    <meta name='robots' content='max-image-preview:large'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+    <link rel="stylesheet" href="/public/css/dist/main.css">
+    <link rel="stylesheet" href="/public/css/dist/bootstrap.min.css">
+    <link rel="shortcut icon" href="/public/img/favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<section class="dark-bg menu-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-9 text-left text-white-50 font-weight-bolder font-20">
+                <img src="/public/img/logo.png" class="logo">
+            </div>
+            <div class="col-3 col-md-3 text-right mobile-only text-white-50">
+                <span class="fas fa-times" id="menu-icon" style="font-size: 20px"></span></div>
+            <div class="col-md-6 col-12">
+                <ul class="nav justify-content-center menu-content show">
+                    <li class="nav-item mobile-full-width no-underline d-flex align-items-center justify-content-center">
+                        <div class="social-btns d-flex justify-content-center line-height-1">
+                            <div class="social-btn-wrapper">
+                                <a class="social-icon" href="http://twitter.com/" target="_blank">
+                                    <i aria-hidden="true" class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="social-btn-wrapper">
+                                <a class="social-icon" href="https://www.reddit.com/r//"
+                                   target="_blank">
+                                    <i aria-hidden="true" class="fab fa-reddit"></i>
+                                </a>
+                            </div>
+                            <div class="social-btn-wrapper">
+                                <a class="social-icon" href="https://www.youtube.com/channel"
+                                   target="_blank">
+                                    <i aria-hidden="true" class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                            <div class="social-btn-wrapper">
+                                <a class="social-icon" href="https://t.me/"
+                                   target="_blank">
+                                    <i aria-hidden="true" class="fab fa-telegram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item mobile-full-width">
+                        <a class="nav-link text-center" href="#">Docs</a>
+                    </li>
+                    <li class="nav-item mobile-full-width">
+                        <a class="nav-link text-center" href="#tokenomics">Demo Video</a>
+                    </li>
+                    <li class="nav-item mobile-full-width">
+                        <a class="nav-link text-center" href="#reward">LitePaper</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-12 text-center">
+                <a href="#" class="btn secondary size-medium font-weight-normal" target="_blank">Download Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="second-block dark-bg" data-aos="fade-down">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="holder-block col-12 col-md-12">
+                <div class="content">
+                    <h1 class="title size-xlarge text-white text-center">
+                        Meet Your New <span class="primary-text">Butler<br> BSC</span> (Binance Smart Chain) <span class="primary-text">Supported!</span>
+                    </h1>
+                    <p class="text-white text-center">Dao Sniper is your personal trading assistant. He’s a local bot that<br> runs
+                        cross-platform on your machine, giving you more control than<br> any limit order system in the
+                        market. Automate your DEX<br> (Uniswap, Sushiswap, Pancakeswap) trades, snipe new listings for<br> the
+                        best entry price, pre-approve tokens on purchase, and much <br>more!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row feature-boxs pt-3">
+            <div class="col-md-4 col-12 text-center social-btn-wrapper">
+                <div class="feature-box d-flex flex-column align-items-center">
+                    <div class="feature-logo">
+                        <img src="/public/img/local.svg">
+                    </div>
+                    <p class="feature-title primary-text">Local</p>
+                    <p class="feature-desc text-white">Your butler is within your control. Everything is local other than standard APIs and the Uniswap contract interactions.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 text-center social-btn-wrapper">
+                <div class="feature-box d-flex flex-column align-items-center">
+                    <div class="feature-logo">
+                        <img src="/public/img/secure.svg">
+                    </div>
+                    <p class="feature-title primary-text">Secure</p>
+                    <p class="feature-desc text-white">
+                        Your private keys are kept on your machine, inaccessible by anyone else. Our software is
+                        generally open source so you can verify our security for yourself!
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center social-btn-wrapper">
+                <div class="feature-box d-flex flex-column align-items-center">
+                    <div class="feature-logo">
+                        <img src="/public/img/feature_packed.svg">
+                    </div>
+                    <p class="feature-title primary-text">Feature Packed</p>
+                    <p class="feature-desc text-white">
+                        Snipe listings to get a better entry price and edge on the market. Buy/sell with limits to ensure maximum trade profitability.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center social-btn-wrapper">
+                <div class="feature-box d-flex flex-column align-items-center">
+                    <div class="feature-logo">
+                        <img src="/public/img/save_on_gas.svg">
+                    </div>
+                    <p class="feature-title primary-text">Save on Gas</p>
+                    <p class="feature-desc text-white">
+                        Since everything is local, you don’t pay gas for order adjustments. This allows you to change
+                        strategies on the fly for free. Custom gas estimation tool included for higher accuracy when
+                        executing trades.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center social-btn-wrapper">
+                <div class="feature-box d-flex flex-column align-items-center">
+                    <div class="feature-logo">
+                        <img src="/public/img/flexible.svg">
+                    </div>
+                    <p class="feature-title primary-text">Flexible</p>
+                    <p class="feature-desc text-white">
+                        Set up any kind of token you want: no liquidity, no problem! Newly created, easy add. Never rely
+                        on token listings to start trading again.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-12 text-center social-btn-wrapper">
+                <div class="feature-box d-flex flex-column align-items-center">
+                    <div class="feature-logo">
+                        <img src="/public/img/peace_of_mind.svg">
+                    </div>
+                    <p class="feature-title primary-text">Peace of Mind</p>
+                    <p class="feature-desc text-white">
+                        Sleep well at night knowing your limits have been set on your terms. You’re now using the same
+                        tools that the pros do!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-2 pt-2" id="clock-block" data-aos="fade-down">
+    <div class="container pt-2 pb-2">
+        <div class="row">
+            <div class="col-12 text-center p-5">
+                <p class="primary-text">PRICING</p>
+                <h2 class="text-white font-weight-bolder">Simply Hold <span class="primary-text">TBB</span> to Use Dao Snipper!</h2>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6">
+                        <p class="text-white">
+                            Getting started using a professional trading tool has never been easier. As long as you hold
+                            TBB in the wallet connected to Dao Snipper, you’re all set. We will NEVER raise our pricing
+                            on our initials tiers. We WILL continuously develop new features and will introduce
+                            additional tiers/pricing plans in the future.
+                            <br><br>
+                            You can use TBB on ETH and BSC - or the new bTBB for BSC only!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row hold-boxs">
+            <div class="col-12 col-md-6">
+                <div class="hold-box p-5">
+                    <div>
+                        <p class="hold-title mb-3">PART TIME BUTLER</p>
+                        <p class="hold-title mb-3">1 TBB (0.4 LP) for ETH</p>
+                        <p class="hold-title mb-3">1 bTBB (0.4 LP) for BSC</p>
+                        <p class="hold-desc text-white-50 mb-3">Try out Dao Snipper at minimal cost to see if it's for you!</p>
+                        <hr/>
+                        <ul class="hold-items-ul">
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span>2 Simultaneously Active Tokens</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span>Buy & Sell Limit Stops</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span>Token Pre-Approval Before Liquidity on Uniswap</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span> Buy or Sell immediately on listing (sniping) with stops</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span> Customized Gas Limits</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span> Moonbag - Customized sell amounts if you want to keep a small bag "just in case"</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span> Never Sell X Tokens - Keep 1/4/8 TBB for license!</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span> Custom Http Provider - Quiknode or your own geth node</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span> API Quorum - X number of API sources must agree on a request</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="justify-content-center d-flex">
+                        <a href="#" class="btn secondary size-medium font-weight-normal">Buy TBB on Uniswap</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="hold-box p-5">
+                    <div>
+                        <p class="hold-title mb-3">FULL TIME BUTLER</p>
+                        <p class="hold-title mb-3">4 TBB (1.5 LP) for ETH</p>
+                        <p class="hold-title mb-3">4 bTBB (1.5 LP) for BSC</p>
+                        <p class="hold-desc text-white-50 mb-3">Like what you see and want more? If you’re only trading 10 tokens or less at a time, this is the plan for you.</p>
+                        <ul class="hold-items-ul">
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span>Everything from 1 Token plus:</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span>10 Simultaneously Active Tokens</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span>Trailing Buy & Sell Stops</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span> Stop Loss</span>
+                            </li>
+                            <li class="hold-item primary-text d-flex">
+                                <i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span> Maximum Price Impact Limits</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr/>
+                    <div class="justify-content-center d-flex">
+                        <a href="#" class="btn secondary size-medium font-weight-normal">Buy TBB on Uniswap</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="ecosystem-block pb-5 pt-5" data-aos="fade-down" id="tokenomics">
+    <div class="container">
+        <div class="ecosystem-header row mb-5 mt-5">
+            <div class="col-12 text-center">
+                <p class="primary-text">PRICING</p>
+                <h2 class="text-white font-weight-bolder">The Dao Snipper Token</h2>
+            </div>
+        </div>
+        <div class="ecosystem-content row mb-5 mt-5 justify-content-center">
+            <div class="col-8">
+                <p class="text-white font-20">
+                    TBB and bTBB are designed as utility tokens as you must hold one in order to get your very own trading assistant. TBB is tradable on the ETH network and unlocks the bot for usage on both ETH and BSC. bTBB is tradable on the BSC network and unlocks the bot for usage only on BSC.
+                </p>
+            </div>
+        </div>
+        <div class="ecosystem-footer pb-5 text-white">
+            <div class="row pb-3">
+                <div class="col-12 col-md-4 size-medium">
+                    <div class="card-box p-2">
+                        <span class="imageContainer">
+                            <img src="https://tradebutlerbot.app/static/media/shield-icon.297d50a2.svg" alt="">
+                        </span>
+                        <span class="textContainer">
+                            <span class="title">2,000 TBB</span>
+                            <br>
+                            <span class="title">10,000 bTBB</span>
+                            <p class="description">Max Token Supply</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 size-medium">
+                    <div class="card-box p-2">
+                        <span class="imageContainer">
+                            <img src="https://tradebutlerbot.app/static/media/reliable-icon.a12572bd.svg" alt="">
+                        </span>
+                        <span class="textContainer">
+                            <span class="title">1,600 TBB</span>
+                            <br>
+                            <span class="title">10,000 bTBB</span>
+                            <p class="description">Initial Circulating Supply</p>
+                         </span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 size-medium">
+                    <div class="card-box p-2">
+                        <span class="imageContainer">
+                            <img src="https://tradebutlerbot.app/static/media/simple-icon.345871b4.svg" alt="">
+                        </span>
+                        <span class="textContainer">
+                            <span class="title">3 Months</span>
+                            <br>
+                            <span class="title"></span>
+                            <p class="description">Intially Locked Liquidity</p>
+                         </span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 size-medium">
+                    <div class="card-box p-2">
+                        <span class="imageContainer">
+                            <img src="/public/img/market_fund.svg" alt="">
+                        </span>
+                        <span class="textContainer">
+                            <span class="title">100 TBB</span>
+                            <br>
+                            <span class="title"></span>
+                            <p class="description">Marketing Fund</p>
+                         </span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 size-medium">
+                    <div class="card-box p-2">
+                        <span class="imageContainer">
+                            <img src="/public/img/team_token.svg" alt="">
+                        </span>
+                        <span class="textContainer">
+                            <span class="title">300 TBB</span>
+                            <br>
+                            <span class="title"></span>
+                            <p class="description">Team Tokens for future development</p>
+                         </span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 size-medium">
+                    <div class="card-box p-2">
+                        <span class="imageContainer">
+                            <img src="/public/img/token_locked.svg" alt="">
+                        </span>
+                        <span class="textContainer">
+                            <span class="title">600 TBB</span>
+                            <br>
+                            <span class="title"></span>
+                            <p class="description">Tokens locked for liquidity</p>
+                         </span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 size-medium">
+                    <div class="card-box p-2">
+                        <span class="imageContainer">
+                            <img src="/public/img/token_presale.svg" alt="">
+                        </span>
+                        <span class="textContainer">
+                            <span class="title">0.3 ETH</span>
+                            <br>
+                            <span class="title">0.71 BNB</span>
+                            <p class="description">Token Presale Price</p>
+                         </span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 size-medium">
+                    <div class="card-box p-2">
+                        <span class="imageContainer">
+                            <img src="/public/img/token_listing.svg" alt="">
+                        </span>
+                        <span class="textContainer">
+                            <span class="title">0.333 ETH</span>
+                            <br>
+                            <span class="title">0.833 BNB</span>
+                            <p class="description">Token Listing Price</p>
+                         </span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 size-medium">
+                    <div class="card-box p-2">
+                        <span class="imageContainer">
+                            <img src="/public/img/hold_1_token.svg" alt="">
+                        </span>
+                        <span class="textContainer">
+                            <span class="title">1 TBB</span>
+                            <br>
+                            <span class="title">1 bTBB</span>
+                            <p class="description">Hold 1 Token to Try!</p>
+                         </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="faq-block pb-2 pt-4" id="faq" data-aos="fade-down">
+    <div class="container pt-5 pb-2">
+        <div class="row pb-5">
+            <div class="col-12 text-center">
+                <p class="primary-text">FAQS</p>
+                <h2 class="text-white font-weight-bolder">
+                    What would you like to know?
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="accordion-btn btn btn-link btn-block text-left" type="button"
+                                    data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                Is it safe to use Dao Snipper?
+                                <span class="accordion-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                         data-parent="#accordionExample">
+                        <div class="card-body">
+                            Yes, it is 100% safe to use Dao Snipper. The majority of our code is open source and
+                            available for you to review. If you watch our demo you’ll notice we never use
+                            your private wallet keys; they are strictly for calling Uniswap contracts. You should always
+                            use an md5 hash checker to ensure your library is authentic. We will be releasing an audit
+                            shortly to confirm this process!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="accordion-btn btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                What makes Dao Snipper better than other trading bot or systems?
+                                <span class="accordion-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Local bots have several advantages and are employed by many pros, they usually are custom written and not available to the masses, until now:
+                            <ul style="list-style: disc; margin: 1em; padding-inline-start: 40px;">
+                                <li>100% secure and private</li>
+                                <li>Direct control over all trade mechanics</li>
+                                <li>Our initial pricing will NEVER change higher! We may add new tiers or lower tier requirements but rest assured if you buy in at any given tier you can always use the bot.</li>
+                                <li>Price updates in near real-time, significantly faster than Uniswap giving you an edge over the market.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading4">
+                        <h2 class="mb-0">
+                            <button class="accordion-btn btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapse4" aria-expanded="false"
+                                    aria-controls="collapse4">
+                                What if I don't like Dao Snipper?
+                                <span class="accordion-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Who doesn’t like a butler? All jokes aside, we’ve locked liquidity on Uniswap for 3 months so
+                            if you buy TBB to try TradeButler but you don’t like it, simply market sell your tokens on Uniswap.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="accordion-btn btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                Do you have a roadmap or an upcoming feature list?
+                                <span class="accordion-icon">
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                         data-parent="#accordionExample">
+                        <div class="card-body">
+                            We have a lot in the works! A preview of what’s to come:
+                            <ul style="list-style: disc; margin: 1em; padding-inline-start: 40px;">
+                                <li>GUI Built in ElectronJS - RELEASED!</li>
+                                <li>Desktop Alerts - RELEASED!</li>
+                                <li>Presale Mempool Sniper - RELEASED! Requires 3 LP (Liquidity Provider) tokens to use or a 5% fee at 8 TBB / bTBB level!</li>
+                                <li>Local Realtime Charting</li>
+                                <li>Link to Bot APIs for mobile alerts</li>
+                                <li>Timelock Watcher</li>
+                                <li>Whale Wallet Watcher</li>
+                                <li>More DEX support</li>
+                                <li>More Cross-chain Support - Cardano, Fantom, Heco and Polkadot</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center pb-4">
+                <a class="text-white-50 size-large" href="#" target="_blank">Dao Snipper</a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="social-btns d-flex justify-content-center line-height-1">
+                <div class="social-btn-wrapper">
+                    <a class="social-icon" href="http://twitter.com/" target="_blank">
+                        <i aria-hidden="true" class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="social-btn-wrapper">
+                    <a class="social-icon" href="https://www.reddit.com/r//"
+                       target="_blank">
+                        <i aria-hidden="true" class="fab fa-reddit"></i>
+                    </a>
+                </div>
+                <div class="social-btn-wrapper">
+                    <a class="social-icon" href="https://www.youtube.com/channel"
+                       target="_blank">
+                        <i aria-hidden="true" class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="social-btn-wrapper">
+                    <a class="social-icon" href="https://t.me/"
+                       target="_blank">
+                        <i aria-hidden="true" class="fab fa-telegram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="/public/js/lib/chart.min.js"></script>
+<script src="/public/js/fontawesome.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 600,
+    });
+    $(function () {
+        $('.collapse').collapse();
+        $('.accordion-btn').click(function () {
+            console.log('collapsed ? ==> ', $(this).hasClass('collapsed'));
+            var target = $(this).data('target');
+            console.log(target);
+            // $('button.collapsed').find('.accordion-icon').find('i').toggleClass('fa-chevron-down').toggleClass('fa-chevron-up');
+            var objs = $('.accordion-btn').filter((key, obj) => {
+                var t = $(obj).data('target');
+                return !$(obj).hasClass('collapsed') && t !== target;
+            }).find('.accordion-icon').find('i').toggleClass('fa-chevron-down').toggleClass('fa-chevron-up');
+            $(this).find('.accordion-icon').find('i').toggleClass('fa-chevron-down').toggleClass('fa-chevron-up');
+        });
+
+        $('#menu-icon').click(function () {
+            $(this).toggleClass('fa-times').toggleClass('fa-bars');
+            $('.menu-content').toggleClass('show');
+        });
+    })
+</script>
+</html>
